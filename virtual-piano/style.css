@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+body {
+    /*https://coolors.co/palette/606c38-283618-fefae0-dda15e-bc6c25
+    ~ Kombu Green #283618
+    ~ Cornsilk #FEFAE0 */
+    background-color: #283618;
+    display: flex;
+    /*   vh	Эквивалентно 1% высоты окна браузера.*/
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    display: inline-block;
+    width: 560px;
+    height: 246px;
+}
+
+.white-keys {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    line-height: 2500%;  /* текст в названиях клавиш опустили*/
+    text-align: center;
+}
+
+.black-keys {
+    display: inline-block;
+    position: relative;
+    bottom: 100%;
+    height: 60%;
+    width: 100%;
+
+}
+
+.white-keys kbd {
+    background-color: white;
+    width: 80px;
+    height: 240px;
+    border-style: groove;
+    /*Remove the distance between the keys.
+    For example, you can do it with the margin-left property.*/
+    margin-left: -1px;
+}
+
+.black-keys kbd {
+    display: inline-block;
+    background-color: black;
+    width: 51px;
+    height: 100%;
+    color: white;
+    line-height: 1400%; /* текст в названиях клавиш опустили*/
+    text-align: center;
+}
+
+#W {
+    position: relative;
+    top: 0;
+    left: 54px;
+}
+
+#E {
+    position: relative;
+    top: 0;
+    left: 80px;
+}
+
+#T {
+    position: relative;
+    top: 0;
+    left: 183px;
+}
+
+#Y {
+    position: relative;
+    top: 0;
+    left: 210px;
+}
+
+#U {
+    position: relative;
+    top: 0;
+    left: 235px;
+}
+

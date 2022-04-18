@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>My Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="modals.css">
+    <link rel="stylesheet" href="navigation.css">
+</head>
+
+<!-- Nav section -->
+<nav class="indigo-dye">
+    <div class="logo"><a href="./index.html">Logo</a></div>
+    <ul class="nav-links">
+        <li ><a href="#about">About me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contacts">Contacts</a></li>
+        <li><a href="./projects.html" tabindex="-1">My Projects</a></li>
+        <li ><a href="#about">Home</a></li>
+    </ul>
+    <div class="hamburger">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+    </div>
+</nav>
+<!-- End of Nav section -->
+
+<header class="indigo-dye">
+    <h1 class="header-item">Volha Lukashevich, QA</h1>
+</header>
+
+<body class="honolulu-blue">
+
+
+<!-- Portfolio section -->
+<section id="portfolio">
+    <h2 >My Projects</h2>
+    <div class="flex-container">
+        <div>
+            <img alt="Yandex" src="../images/yandex.png">
+            <!-- Trigger/Open The Modal -->
+            <button class="open-window honolulu-blue" id="button1">Open Modal</button>
+            <p></p>
+        </div>
+        <div>
+            <img alt="Russian language" src="../images/russian.png">
+            <!-- Trigger/Open The Modal -->
+            <button class="open-window honolulu-blue" id="button2">Russian language teacher</button>
+            <p></p>
+        </div>
+        <div>
+            <img alt="Intellectual games" src="../images/owl2.png">
+            <!-- Trigger/Open The Modal -->
+            <button class="open-window honolulu-blue" id="button3">What? Where? When?</button>
+            <p></p>
+        </div>
+        <div>
+            <img id="projects" alt="My Projects" src="../images/projects.png">
+            <!-- Trigger/Open The Modal -->
+            <button class="open-window honolulu-blue" id="button4">My Projects</button>
+            <p></p>
+        </div>
+    </div>
+    <!-- The Modal -->
+    <div id="window1" class="window">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" id="span">&times;</span>
+            <p>Some text in the Modal 1..</p>
+        </div>
+    </div>
+    <div id="window2" class="window">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" id="span2">&times;</span>
+            <p>Some text in the Modal 2..</p>
+        </div>
+    </div>
+    <div id="window3" class="window">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" id="span3">&times;</span>
+            <p>Some text in the Modal 3..</p>
+            <audio controls>
+                <source src="../media/chtoGdeKogda.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+    </div>
+    <div id="window4" class="window">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close" id="span4">&times;</span>
+            <p>There will be my projects</p>
+        </div>
+    </div>
+</section>
+<!-- End of portfolio -->
+
+<!-- Contacts section -->
+<section id="contacts" class="indigo-dye">
+    <h2 class="contacts-item" id="#contacts">Contacts</h2>
+    <p class="contacts-item">You can contact me at <a  href=>volllga.goo@gmail.com</a> </p>
+    <div class="contacts-item">
+        <a  href="https://github.com/volllga" target="_blank"><img src="../images/git.png" alt="github"></a>
+        <a  href="https://www.linkedin.com/in/volha-lukashevich-324799128/" target="_blank"><img src="../images/linkedin2.png" alt="github"></a>
+    </div>
+</section>
+<!-- End of contacts -->
+
+<script src="modal.js"></script>
+<script src="navigation.js"></script>
+<footer class="indigo-dye">
+    <p>This is an education project. Thanks very much <a href="https://hyperskill.org/" title="Go to JetBrains Academy">JetBrains Academy</a> </p>
+    <p> 2022 </p>
+</footer>
+</body>
+</html>
