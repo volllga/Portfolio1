@@ -1,3 +1,4 @@
+[Руководство по оформлению Markdown файлов](https://gist.github.com/Jekins/2bf2d0638163f1294637/ "Необязательная подсказка")
 ~~1. reduce the size of the .flex-container div~~
 ~~2. add section my projects~~
 ~~3. drop-down menu for My projects~~
