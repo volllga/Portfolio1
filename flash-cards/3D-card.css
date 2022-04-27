@@ -1,0 +1,118 @@
+* {
+    margin: 10px;
+}
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#div1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    border: 3px solid white;
+    text-align: center;
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+}
+
+#div1:hover {
+    transform: rotateY(180deg);
+    background: orangered;
+    backface-visibility: visible;
+    animation-duration: 3s;
+}
+
+#div2 {
+    width: 100px;
+    height: 100px;
+    background: green;
+    border: 3px solid white;
+    text-align: center;
+    -webkit-backface-visibility: visible;
+    -moz-backface-visibility: visible;
+    opacity: 0.7;
+    transition: opacity .5s ease;
+    /*ease: The transition starts slow, increases in speed
+    towards the middle, and decreases towards the end.
+    It's the default value.*/
+}
+
+#div2:hover {
+    background: chartreuse;
+    backface-visibility: visible;
+    animation-duration: 3s;
+    opacity: 1;
+}
+
+.login {
+    border: 3px solid white;
+    border-radius: 10%;
+    background-color: #6F66A9;
+    color: aliceblue;
+    width: 100px;
+    height: 60px;
+    transition: 1s ease;
+    -webkit-filter: blur(0px);
+}
+
+.login:hover {
+    background-color: #463C85 ;
+    color: #969696;
+    border: 3px solid #969696;
+    transform: scale(1.1);
+}
+
+nav {
+    margin: 20px;
+    width: 30%;
+    background-color: #494949;
+    border-radius: 7px;
+}
+
+nav img {
+    border-radius: 50%;
+    padding: 10px;
+    transition: opacity .5s ease,
+    background-color 1s ease-out;
+}
+
+nav img:hover {
+    background-color: rgb(113, 148, 230);
+    cursor: pointer;
+    opacity: 70%;
+}
+
+.card {
+    height: 100px;
+    width: 100px;
+    background-color: coral;
+    border-radius: 7px;
+    transition: 2s ease;
+    transform-style: preserve-3d;
+    /*Indicates that the children of the element should be positioned in the 3D-space.*/
+}
+.front {
+    font-size: 35px;
+}
+
+.back {
+    transform: rotateY(180deg);
+ /*к пользователю повернута обратная сторона карточки*/
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+    /*поворачиваем всю карточку вокруг своей оси*/
+}
+
+
+
