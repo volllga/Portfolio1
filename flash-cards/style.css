@@ -1,10 +1,13 @@
 * {
     box-sizing: border-box;
+    text-align: center;
 }
 body {
+    width: 100vw;
+    height: 100vh;
     background-image: url("./img/world.jpg");
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: cover;
     font-family: 'Montserrat', sans-serif;
     font-size: xx-large;
     display: flex;
@@ -22,12 +25,34 @@ h1 {
     grid-template-rows: auto auto auto;
 }
 
-#card-box div {
-    width: 150px;
-    height: 150px;
+.card {
+    width: 20vmin;
+    height: 20vmin;
     border-radius: 12px;
     background-color: #1E678A;
-    margin: 5px;
-    text-align: center;
+    margin: 15px;
+    transition: 2s 1s ease;
+    transform-style: preserve-3d;
+    /*Indicates that the children of the element should be positioned in the 3D-space.*/
 
+}
+
+.back {
+    transform: rotateY(180deg);
+    background-color: #5798BB;
+    /*к пользователю повернута обратная сторона карточки*/
+}
+
+.front, .back {
+    backface-visibility: hidden;
+    position: absolute;
+    width: 20vmin;
+    height: 20vmin;
+    border-radius: 12px;
+}
+
+.card:hover {
+    transform: rotateY(180deg);
+    cursor: pointer;
+    /*поворачиваем всю карточку вокруг своей оси*/
 }
