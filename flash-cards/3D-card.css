@@ -1,12 +1,12 @@
 * {
     margin: 10px;
 }
+
 body {
     background-color: black;
     display: flex;
     flex-direction: column;
     align-items: center;
-
 }
 
 #div1 {
@@ -95,6 +95,7 @@ nav img:hover {
     transform-style: preserve-3d;
     /*Indicates that the children of the element should be positioned in the 3D-space.*/
 }
+
 .front {
     font-size: 35px;
 }

@@ -1,4 +1,5 @@
-.open-window {
+.open-window,
+.project__button{
     height:80px;
     width:240px;
     font-size: 100%;

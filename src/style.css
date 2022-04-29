@@ -160,3 +160,7 @@ table, th, td, caption {
     /*element should be invisible*/
     visibility: hidden;
 }
+
+.project__image {
+    border-radius: 35px;
+}
