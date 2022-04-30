@@ -3,7 +3,8 @@
 ~~2. add section my projects~~
 ~~3. drop-down menu for My projects~~
 ~~4. blank page~~
-5. page Virtual Piano
+~~5. page Virtual Piano~~
+5a. Case Converter page
 6. stop audio when window is closed
 7. font
 8. nav links

@@ -9,8 +9,6 @@ const navSlide = () => {
         //Hamburger animation
         burger.classList.toggle('toggle-hamburger');
     })
-
-
 }
 
 navSlide();
