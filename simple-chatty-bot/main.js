@@ -16,6 +16,8 @@ const name = process.stdin.on('data', data => {
     process.exit();
 });
 
+
+
 //https://nodejsdev.ru/api/process/
 // В process Объект предоставляет информацию о текущем процессе Node.js.
 // и контролирует его. Хотя он доступен как глобальный,
