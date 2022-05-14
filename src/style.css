@@ -48,6 +48,10 @@ h1 {
     font-size: 2em;
     font-weight: bold;
     padding: 1em 2em;
+
+}
+header a {
+    text-decoration: none;
 }
 
 #about {
