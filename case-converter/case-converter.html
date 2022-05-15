@@ -4,33 +4,64 @@
     <meta charset="UTF-8">
     <title>Case Converter</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../src/navigation.css">
+    <link rel="stylesheet" href="../src/style.css">
 </head>
-    <body class="honolulu-blue">
-        <div class="title">
-            <h1>Case Converter</h1>
+<div>
+    <nav class="indigo-dye">
+        <div class="logo"><a href="../src/index.html">Logo</a></div>
+        <ul class="nav-links">
+            <li ><a href="../src/index.html#about">About me</a></li>
+            <li><a href="../src/index.html#portfolio">Portfolio</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="../src/projects.html" tabindex="-1">My Projects</a></li>
+            <li ><a href="../src/index.html">Home</a></li>
+        </ul>
+        <div class="hamburger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-
-        <div id="container">
-            <div>
-                <textarea autofocus placeholder="Enter your text"></textarea>
-            </div>
-            <div>
-                <button id="upper-case" class="indigo-dye open-window">Upper Case</button>
-                <button id="lower-case" class="indigo-dye open-window">Lower Case</button>
-                <button id="proper-case" class="indigo-dye open-window">Proper Case</button>
-                <button id="sentence-case" class="indigo-dye open-window">Sentence Case</button>
-                <button id="save-text-file" class="indigo-dye open-window">Save Text File</button>
-            </div>
+    </nav>
+    <header class="indigo-dye">
+        <a href="../src/index.html">
+            <h1 class="header-item">Volha Lukashevich, QA</h1>
+        </a>
+    </header>
+</div>
+<body class="honolulu-blue">
+    <div class="title">
+        <h1>Case Converter</h1>
+    </div>
+    <div id="container">
+        <div>
+            <textarea autofocus placeholder="Enter your text"></textarea>
         </div>
-
-        <footer class="indigo-dye">
-            <p>This is an education project. Thanks very much <a href="https://hyperskill.org/" title="Go to JetBrains Academy">JetBrains Academy</a> </p>
-            <p> 2022 </p>
-        </footer>
-
-        <script src="saveTextFile.js"></script>
-        <script src="textToSentenceCase.js"></script>
-        <script src="textToProperCase.js"></script>
-        <script src="script.js"></script>
-    </body>
+        <div>
+            <button id="upper-case" class="indigo-dye open-window">Upper Case</button>
+            <button id="lower-case" class="indigo-dye open-window">Lower Case</button>
+            <button id="proper-case" class="indigo-dye open-window">Proper Case</button>
+            <button id="sentence-case" class="indigo-dye open-window">Sentence Case</button>
+            <button id="save-text-file" class="indigo-dye open-window">Save Text File</button>
+        </div>
+    </div>
+    <div>
+    <section id="contacts" class="indigo-dye">
+        <h2 class="contacts-item" id="#contacts">Contacts</h2>
+        <p class="contacts-item">You can contact me at <a  href=>volllga.goo@gmail.com</a> </p>
+        <div class="contacts-item">
+            <a  href="https://github.com/volllga" target="_blank"><img src="../images/git.png" alt="github"></a>
+            <a  href="https://www.linkedin.com/in/volha-lukashevich-324799128/" target="_blank"><img src="../images/linkedin2.png" alt="github"></a>
+        </div>
+    </section>
+    <footer class="indigo-dye">
+        <p>This is an education project. Thanks very much <a href="https://hyperskill.org/" title="Go to JetBrains Academy">JetBrains Academy</a> </p>
+        <p> 2022 </p>
+    </footer>
+    </div>
+    <script src="saveTextFile.js"></script>
+    <script src="textToSentenceCase.js"></script>
+    <script src="textToProperCase.js"></script>
+    <script src="script.js"></script>
+</body>
 </html>
