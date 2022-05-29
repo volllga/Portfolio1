@@ -10,10 +10,12 @@
 // console.log(text);
 
 function toProperCase(text) {
-    return text
+  text = text
         .split(" ")
         .map(word => word[0].toUpperCase() + word.slice(1).toLowerCase())
         .join(" ");
+
+  return text;
 }
 
 // console.log(toProperCase("i'm a little funny cat"));

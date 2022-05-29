@@ -23,10 +23,11 @@
 
 /* Modal Content */
 .modal-content {
+    justify-content: center;
     background-color: #78B2CA;
     border: 1px solid #494949;
     border-radius: 8px;
-    height: 40%;
+    height: 30vmax;
     margin: auto;
     padding: 10px;
     width: 60%;
@@ -45,4 +46,9 @@
     color: #000;
     text-decoration: none;
     cursor: pointer;
+}
+
+video {
+    width: 80%;
+    height: 60%;
 }
