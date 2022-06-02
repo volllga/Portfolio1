@@ -6,6 +6,7 @@
     border-radius: 6px;
     border: 0;
     cursor: pointer;
+    box-shadow: 0px 0px 8px #4c4b4b;
 }
 
 .window {
